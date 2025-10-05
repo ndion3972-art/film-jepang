@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Koleksi Video Saya</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+            font-family: Arial;
+        }
+        .video-container {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        video {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Koleksi Video Saya</h1>
+    
+    <div class="video-container">
+        <h2>Video 1</h2>
+        <video controls width="800">
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Video 2</h2>
+        <video controls width="800">
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Video 3</h2>
+        <video controls width="800">
+            <source src="video3.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Video 4</h2>
+        <video controls width="800">
+            <source src="video4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Video 5</h2>
+        <video controls width="800">
+            <source src="video5.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <h2>Video 6</h2>
+        <video controls width="800">
+            <source src="video6.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+</html>
